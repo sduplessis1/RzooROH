@@ -2,10 +2,7 @@
 # usage of this script: ./02_Rscript_rzooroh.R --chrom chrom_name OR ./02_Rscript_rzooroh.R -c chrom_name
 
 # specify library path in R and install/load packages
-.libPaths("/mnt/scratch/nodelete/c1322153/Rpackages4")
-#install.packages("RZooRoH", lib = "/mnt/scratch/nodelete/c1322153/Rpackages4", repos = "https://www.stats.bris.ac.uk/R/")
-#install.packages("R.utils", lib = "/mnt/scratch/nodelete/c1322153/Rpackages4", repos = "https://www.stats.bris.ac.uk/R/")
-#install.packages("optparse", lib = "/mnt/scratch/nodelete/c1322153/Rpackages4", repos = "https://www.stats.bris.ac.uk/R/")
+.libPaths("/path/to/Rpackages4")
 library(RZooRoH)
 library(R.utils)
 library(dplyr)
